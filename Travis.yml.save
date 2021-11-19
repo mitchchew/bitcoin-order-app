@@ -8,19 +8,13 @@ sudo: required
 notifications:
   email:
     recipients:
-      - winter_bluez@hotmail.com
+      - winter_bluez@hotmail.come0176881u
     on_success: always
-    on_failure: always 
-branches:
+    on_failure: always branches:
   only:
-   - development 
-before_script:
-  - npm install -g @angular/cli 
-
-script:
-  - ng build --prod --base-href https://mitchchew.github.io/bitcoin-order-app/ 
-
-deploy:
+   - development before_script:
+  - npm install -g @angular/cli script:
+  - ng build --prod --base-href https://e0176881.github.io/bitcoin-order-app/ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
